@@ -97,7 +97,7 @@ td {
 
 #progress {
   display: inline;
-  width: 150px; 
+  width: 150px;
   margin-top: 10px;
 }
 
@@ -108,7 +108,7 @@ td {
 }
 
 #nextWindow[disabled=disabled], #nextWindow:disabled {
-  background-color: #fff;   
+  /*background-color: #fff;*/
 }
 
 #main_container {
@@ -129,4 +129,3 @@ td {
 .classification.active {
   background-color: lightgrey;
 }
-

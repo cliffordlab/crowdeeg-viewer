@@ -29,7 +29,7 @@ $.widget('crowdspot.annotator', {
         recording: 'excerpt1_50',
         classes: [], // sleep stages
         features: ['Spindle'],
-        feature_selection_enabled: true, // users are able 
+        feature_selection_enabled: true, // users are able
         navigation_enabled: false,
         progress_bar_enabled: false,
         load_prev_annotations: true,
@@ -154,7 +154,7 @@ $.widget('crowdspot.annotator', {
     },
 
     _getUserProgress: function() {
-        /* sets viewer start time to the start of the window that the user 
+        /* sets viewer start time to the start of the window that the user
         viewed during last session. Without this, the viewer would drop
         you on the first window after a page reset or logout */
         var that = this;
@@ -228,7 +228,7 @@ $.widget('crowdspot.annotator', {
                                 var xMax = event.xAxis[0].max;
                                 that._selectRegion(this, xMin, xMax, that.vars.feature_type, true);
                             }
-                            return false; // otherwise the chart will zoom                    
+                            return false; // otherwise the chart will zoom
                         }
                     },
                     zoomType: 'x', // needed for selection to work!, do not remove
@@ -308,7 +308,7 @@ $.widget('crowdspot.annotator', {
 
         if (that.options.load_prev_annotations) {
             var chart = that.vars.charts[0];
-            // use the chart start/end so that data and annotations can never 
+            // use the chart start/end so that data and annotations can never
             // get out of synch
             that._getAnnotations(chart.xAxis[0].min, chart.xAxis[0].max, false);
         }
