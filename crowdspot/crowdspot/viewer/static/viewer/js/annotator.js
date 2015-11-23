@@ -3,7 +3,7 @@
 $.widget('crowdspot.annotator', {
 
     vars: {
-        width: 1200,
+        //width: 1200,
         marginTop: 5,
         marginBottom: 20,
         marginLeft: 65, // space for the last HH:MM:SS label
