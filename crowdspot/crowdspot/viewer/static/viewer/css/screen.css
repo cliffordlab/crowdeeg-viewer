@@ -14,7 +14,7 @@ td {
 /* consent form css */
 @media (min-width: 500px) {
   #panel_container {
-    width: 1150px;
+    /*width: 1150px;*/
     margin: 0 auto;
   }
   #graph {
@@ -33,9 +33,9 @@ td {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 500px) {
   #panel_container {
-    width: 1000px;
+    /*width: 1000px;*/
     margin: 0 auto;
   }
   #graph {
